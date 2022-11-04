@@ -9,4 +9,4 @@ https://donojazz.github.io/2020-Presidential-Analysis/2020PresidentialElectionAn
 
 ## 30 Day Mapping Session 2022
 
-https://donojazz.github.io/30DayMapping2022/blob/main/maps/air_strikes.html
+https://donojazz.github/30DayMapping2022/blob/main/maps/air_strikes.html
