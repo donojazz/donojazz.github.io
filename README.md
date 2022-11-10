@@ -11,4 +11,4 @@ https://donojazz.github.io/2020-Presidential-Analysis/2020PresidentialElectionAn
 
 https://donojazz.github.io/maps/air_strikes.html
 
-https://donojazz.github.io/maps/most dangerous countries.html
+https://donojazz.github.io/maps/most_dangerous_countries.html
