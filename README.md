@@ -13,4 +13,4 @@ https://donojazz.github.io/maps/air_strikes.html
 
 https://donojazz.github.io/maps/most_dangerous_countries.html
 
-https://donojazz.github.io/maps/
+https://donojazz.github.io/maps/iwo_jima.html
