@@ -16,3 +16,10 @@ https://donojazz.github.io/maps/most_dangerous_countries.html
 https://donojazz.github.io/maps/iwo_jima.html
 
 https://donojazz.github.io/maps/landings.html
+
+
+##  Hockey and Plotly
+
+https://donojazz.github.io/maps/pyth_not_used2.html
+
+
