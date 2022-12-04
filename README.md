@@ -22,4 +22,6 @@ https://donojazz.github.io/maps/landings.html
 
 https://donojazz.github.io/maps/new_Hockey_model.html
 
+https://donojazz.github.io/maps/shot_analysis.html
+
 
