@@ -26,4 +26,6 @@ https://donojazz.github.io/maps/shot_analysis.html
 
 https://donojazz.github.io/maps/skater_analysis.html
 
+https://donojazz.github.io/maps/line_analysis.html
+
 
