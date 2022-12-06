@@ -28,4 +28,6 @@ https://donojazz.github.io/maps/skater_analysis.html
 
 https://donojazz.github.io/maps/line_analysis.html
 
+https://donojazz.github.io/maps/goalie_analysis.html
+
 
