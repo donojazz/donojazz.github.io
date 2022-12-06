@@ -32,5 +32,8 @@ https://donojazz.github.io/maps/goalie_analysis.html
 
 https://donojazz.github.io/maps/team_analysis.html
 
+https://donojazz.github.io/maps/five_day_shot_summary.html
+
+
 
 
