@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2022-12-11" />
+<meta name="date" content="2022-12-12" />
 
 <title>Goalies</title>
 
@@ -2990,7 +2990,7 @@ display: none;
 
 
 <h1 class="title toc-ignore">Goalies</h1>
-<h4 class="date">2022-12-11</h4>
+<h4 class="date">2022-12-12</h4>
 
 </div>
 
@@ -3019,8 +3019,8 @@ goalie_analysis &lt;- read_csv(&quot;extra/Moneypuck/goalies_Moneypuck/goalies.c
                 goal_save_rate_per_60 = round(1-(goal_save_rate * 60)/(icetime/60),3)) %&gt;%
   dplyr::relocate(goal_save_rate_per_60, .before = icetime) %&gt;%
   dplyr::relocate(goals_scored_per_60, .before = icetime) %&gt;%
-  dplyr::relocate(goal_save_rate, .before = icetime) %&gt;%
-  dplyr::arrange(desc(goal_save_rate_per_60))
+  dplyr::relocate(goal_save_rate, .before = goal_save_rate_per_60) %&gt;%
+  dplyr::arrange(desc(goal_save_rate)) 
 
 
 money_added &lt;- read_csv(&quot;extra/salary/dk_salary_min.csv&quot;)
@@ -3034,8 +3034,8 @@ goalie_analysis &lt;- dplyr::left_join(goalie_analysis, money_added, by = &quot;
 <div id="nhl-goalie-data" class="section level2">
 <h2>NHL Goalie Data</h2>
 <pre class="r"><code>datatable(goalie_analysis, class = &#39;cell-border stripe&#39;)</code></pre>
-<div id="htmlwidget-3f231a1fc2b2c83ea004" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3f231a1fc2b2c83ea004">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[8475683,8476945,8471734,8476999,8479394,8478872,8480313,8478007,8479292,8475831],[2022,2022,2022,2022,2022,2022,2022,2022,2022,2022],["Sergei Bobrovsky","Connor Hellebuyck","Jonathan Quick","Linus Ullmark","Carter Hart","Karel Vejmelka","Logan Thompson","Elvis Merzlikins","Charlie Lindgren","Philipp Grubauer"],["FLA","WPG","LAK","BOS","PHI","ARI","VGK","CBJ","WSH","SEA"],["G","G","G","G","G","G","G","G","G","G"],["all","all","all","all","all","all","all","all","all","all"],[15,20,20,18,21,18,19,12,11,8],[8300,8100,8000,7900,7800,7600,7500,7400,7300,6900],[0.932,0.952,0.951,0.943,0.954,0.947,0.95,0.905,0.906,0.869],[3.546,2.245,3.418,1.82,2.748,3.027,2.678,4.816,2.867,3.211],[0.935,0.962,0.939,0.966,0.958,0.953,0.958,0.923,0.949,0.936],[49750,72161,68461,61305,74672,64225,68559,35133,36409,25789],[49,45,65,31,57,54,51,47,29,23],[752,1171,1072,903,1357,1161,1216,610,565,361],[46,64,57,46,72,61,52,37,18,17],[101,98,136,133,157,159,162,65,82,42],[425,665,575,508,655,624,620,340,313,195],[167,281,277,213,403,276,373,152,136,90],["G","G","G","G","G","G","G","G","G","G"],["2022-12-11","2022-12-11","2022-12-11","2022-12-11","2022-12-11","2022-12-11","2022-12-11","2022-12-11","2022-12-11","2022-12-11"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>player_id<\/th>\n      <th>season<\/th>\n      <th>name<\/th>\n      <th>team<\/th>\n      <th>position.x<\/th>\n      <th>situation<\/th>\n      <th>games_played<\/th>\n      <th>salary<\/th>\n      <th>goal_save_rate_per_60<\/th>\n      <th>goals_scored_per_60<\/th>\n      <th>goal_save_rate<\/th>\n      <th>icetime<\/th>\n      <th>goals<\/th>\n      <th>unblocked_shot_attempts<\/th>\n      <th>rebounds<\/th>\n      <th>freeze<\/th>\n      <th>ongoal<\/th>\n      <th>blocked_shot_attempts<\/th>\n      <th>position.y<\/th>\n      <th>today<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,7,8,9,10,11,12,13,14,15,16,17,18]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-48d2600eee2c401824ae" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-48d2600eee2c401824ae">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12"],[8478435,8476341,8479406,8477465,8471306,8477970,8478048,8477424,8479979,8479973,8476434,8474596],[2022,2022,2022,2022,2022,2022,2022,2022,2022,2022,2022,2022],["Dan Vladar","Anton Forsberg","Filip Gustavsson","Tristan Jarry","Thomas Greiss","Vitek Vanecek","Igor Shesterkin","Juuse Saros","Jake Oettinger","Stuart Skinner","John Gibson","Jake Allen"],["CGY","OTT","MIN","PIT","STL","NJD","NYR","NSH","DAL","EDM","ANA","MTL"],["G","G","G","G","G","G","G","G","G","G","G","G"],["all","all","all","all","all","all","all","all","all","all","all","all"],[11,16,10,18,9,18,21,19,20,16,21,18],[0.947,0.949,0.957,0.952,0.94,0.957,0.954,0.948,0.956,0.954,0.938,0.944],[8500,8400,8100,8000,7900,7800,7600,7500,7400,7300,7100,7000],[0.911,0.932,0.902,0.947,0.885,0.941,0.955,0.948,0.949,0.939,0.951,0.947],[2.811,3.244,2.469,2.759,3.686,2.296,2.5,3.045,2.517,2.808,3.991,3.401],[38422,49942,34987,65249,29302,58024,76333,66202,67222,56410,69455,64567],[30,45,24,50,30,37,53,56,47,44,77,61],[571,875,552,1035,499,852,1149,1087,1057,947,1236,1094],[20,57,26,47,26,36,46,59,45,51,75,63],[83,104,62,113,63,79,114,124,107,125,152,103],[317,490,300,614,296,442,637,593,556,541,729,589],[134,209,138,236,105,228,293,283,266,210,288,296],["G","G","G","G","G","G","G","G","G","G","G","G"],["2022-12-12","2022-12-12","2022-12-12","2022-12-12","2022-12-12","2022-12-12","2022-12-12","2022-12-12","2022-12-12","2022-12-12","2022-12-12","2022-12-12"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>player_id<\/th>\n      <th>season<\/th>\n      <th>name<\/th>\n      <th>team<\/th>\n      <th>position.x<\/th>\n      <th>situation<\/th>\n      <th>games_played<\/th>\n      <th>goal_save_rate<\/th>\n      <th>salary<\/th>\n      <th>goal_save_rate_per_60<\/th>\n      <th>goals_scored_per_60<\/th>\n      <th>icetime<\/th>\n      <th>goals<\/th>\n      <th>unblocked_shot_attempts<\/th>\n      <th>rebounds<\/th>\n      <th>freeze<\/th>\n      <th>ongoal<\/th>\n      <th>blocked_shot_attempts<\/th>\n      <th>position.y<\/th>\n      <th>today<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2,7,8,9,10,11,12,13,14,15,16,17,18]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="create-csv-and-xlsx-files" class="section level2">
 <h2>Create csv and xlsx files</h2>
