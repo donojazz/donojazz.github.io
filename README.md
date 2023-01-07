@@ -38,6 +38,8 @@ https://donojazz.github.io/maps/dynamic_shot.html
 
 https://donojazz.github.io/maps/salary_analysis.html
 
+https://donojazz.github.io/maps/player_heatmap.html
+
 
 
 
