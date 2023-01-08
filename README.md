@@ -24,7 +24,7 @@ https://donojazz.github.io/maps/new_Hockey_model.html
 
 https://donojazz.github.io/maps/shot_analysis.html
 
-https://donojazz.github.io/maps/skater_analysis_ver2.html
+https://donojazz.github.io/maps/skater_analysis_ver3.html
 
 https://donojazz.github.io/maps/line_analysis.html
 
