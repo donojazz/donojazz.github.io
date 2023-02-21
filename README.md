@@ -34,6 +34,9 @@ https://donojazz.github.io/maps/team_analysis.html
 
 https://donojazz.github.io/maps/five_day_shot_summary.html
 
+https://donojazz.github.io/maps/team_analysis_version2.html
+
+
 https://donojazz.github.io/maps/TEST_DYNAMIC_SHOTS_ver3.html
 
 https://donojazz.github.io/maps/salary_analysis.html
